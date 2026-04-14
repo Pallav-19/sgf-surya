@@ -94,9 +94,8 @@ function Particles() {
       <bufferGeometry>
         <bufferAttribute
           attach="attributes-position"
+          args={[positions, 3]}
           count={count}
-          array={positions}
-          itemSize={3}
         />
       </bufferGeometry>
       <pointsMaterial size={0.04} color="#10B981" transparent opacity={0.5} sizeAttenuation />
